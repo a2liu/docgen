@@ -17,7 +17,7 @@ return `0`.
 of `i`), `x`, and <code>k - 1</code>, storing the result as `lsum`.
     4. If `lsum` is greater than or equal to `k - 1`, then return `lsum + 1`.
     5. Else, call `solveRecursive`, passing parameters `i.right` (the right child
-of `i`), `x`, and <code>k - 1 - lsum</code>, and store the result as `rsum`.
+of `i`), `x`, and <code class="text-nowrap">k - 1 - lsum</code>, and store the result as `rsum`.
     6. Return `1 + lsum + rsum`
 
 
