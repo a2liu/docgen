@@ -1,3 +1,3 @@
 ---
-layout: docgen-index
+layout: index-docgen
 ---

@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-
-  {% assign page-style = page.layout | downcase %}
-  {% include head.html style=page-style %}
-
-  <body>
-
-    <main class="page-content" aria-label="Content">
-        {{ content }}
-    </main>
-
-  </body>
-
-</html>
+---
+layout: default-docgen
+---
+{{ content }}
