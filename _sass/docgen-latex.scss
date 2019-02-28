@@ -18,15 +18,12 @@ $base-font-family: "Computer Modern", sans-serif;
 
 // Set page margins for printer
 @page {
-  margin-top: 25mm;
-  margin-bottom: 25mm;
-  margin-left: 25mm;
-  margin-right: 25mm;
+  margin: 20mm 20mm;
 }
 
 // For when the file is just a list of things (e.g. a problem set!)
 main > {ol, ul {> li > {
-  p, div.highlighter-rouge, table {
+  p, div, table {
     margin-left: -$spacing-unit / 2;
     margin-right: -$spacing-unit / 2;
 
@@ -45,5 +42,9 @@ main > {ol, ul {> li > {
     ol, ul {
       margin-left: -$spacing-unit / 2;
     }
+  }
+
+  .page-content {
+    margin: 0 auto;
   }
 }
