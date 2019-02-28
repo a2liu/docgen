@@ -19,6 +19,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - LICENSE.txt
-  - History.markdown
+  - LICENSE
+  - History.md
 
