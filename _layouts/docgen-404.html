@@ -1,0 +1,36 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <main class="page-content" aria-label="Content">
+      <h1>404 Not Found!</h1>
+      <p id="404-content">
+        The page couldn't be found :(
+      </p>
+      {{ content }}
+    </main>
+
+    <script>
+      function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
+
+      async function redirect() {
+        console.log(window.location.pathname);
+        if (window.location.pathname == '/') {
+          $('#404-content').text("You're being redirected to the correct homepage of this site...");
+          await sleep(1000);
+          window.location.replace({{ '/' | relative_url }});
+        }
+      }
+
+      redirect();
+    </script>
+  </body>
+
+</html>
