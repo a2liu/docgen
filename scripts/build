@@ -1,0 +1,8 @@
+#!/bin/bash
+SCRIPTS="$(dirname $0:A)"
+PROJ_DIR="$(dirname $SCRIPTS)"
+
+rm jekyll-theme-docgen*.gem
+gem build "$PROJ_DIR/jekyll-theme-docgen.gemspec"
+gem install --local jekyll-theme-docgen*.gem
+
