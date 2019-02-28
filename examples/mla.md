@@ -1,2 +1,0 @@
-layout: mla
-# MLA Format
