@@ -1,11 +1,14 @@
 div.page-break {
-  page-break-before: always;
-  border-color: black;
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+  page-break-after: always;
+  background-color: black;
+  height: 1px;
 }
 
 @media print {
   div.page-break {
-    border-color: none;
+    background-color: none;
   }
 }
 
