@@ -1,4 +1,2 @@
----
 layout: mla
----
 # MLA Format
