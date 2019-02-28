@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source "$(dirname $0:A)/build"
+gem install --local jekyll-theme-docgen*.gem
