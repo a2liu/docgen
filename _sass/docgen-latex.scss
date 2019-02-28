@@ -14,6 +14,8 @@
 }
 
 $base-font-family: "Computer Modern", sans-serif;
+$code-block-background-color: white !default;
+$syntax-highlighting-background-color: white !default;
 @import "docgen-default";
 
 // Set page margins for printer
@@ -22,8 +24,8 @@ $base-font-family: "Computer Modern", sans-serif;
 }
 
 // For when the file is just a list of things (e.g. a problem set!)
-main > {ol, ul {> li > {
-  p, div, table {
+main > ol > li > {
+  * {
     margin-left: -$spacing-unit / 2;
     margin-right: -$spacing-unit / 2;
 
@@ -35,7 +37,24 @@ main > {ol, ul {> li > {
   ol, ul {
     margin-left: $spacing-unit / 2;
   }
-}}}
+}
+
+pre {
+  $offset: 15px;
+  $blur-radius: 15px;
+  $spread-radius: -10px;
+  $type: inset;
+  $shadow-color: $code-block-border-color;
+  @include shadow(
+    $type
+    $offset*-1 $offset
+    $blur-radius $spread-radius $shadow-color,
+
+    $type
+    $offset $offset*-1
+    $blur-radius $spread-radius $shadow-color
+  );
+}
 
 @media print {
   main > {
