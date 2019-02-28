@@ -3,6 +3,7 @@ email: your-email@domain.com
 
 # Build settings
 theme: jekyll-theme-docgen
+baseurl: /docgen
 
 defaults:
   -
