@@ -1,0 +1,11 @@
+div.page-break {
+  page-break-before: always;
+  border-color: black;
+}
+
+@media print {
+  div.page-break {
+    border-color: none;
+  }
+}
+
