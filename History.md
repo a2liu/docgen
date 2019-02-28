@@ -1,5 +1,13 @@
 # History
 
+## 1.1.3 / ???
+* Changed API to store layout logic in layout files that end with `-docgen`, so
+that user has more granular control of layout even without copy-pasting directly from theme
+* Added install script, removed installation from build script
+* Added 404 page layout
+  * Automatically redirects to baseurl if the url is `/`
+* Added jQuery to aide in future JS stuff as well as the above change
+
 ## 1.1.2 / 2019-02-28
 * Fleshed out examples, removed background color from LaTeX code blocks
 
