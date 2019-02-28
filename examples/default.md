@@ -71,7 +71,7 @@ heap we have created. each delete min is a `O(log k)` operation, meaning that
 this operation is `O(n*log k)`, and the whole process is `O((n + k)*log k)`.
 Since <code>n &Gt; k</code>, this simplifies to `O(n*log k)`.
 
-    <div style="page-break-before: always"></div>
+    <div class="page-break"></div>
 5. We use a modified version of a 2-3 tree, where each guide now describes the total
 number of elements contained in its subtree, and each value is an element in a list.
 The values are stored in the order that they appear in the list. Then the following operations
@@ -114,7 +114,7 @@ To get the <i>k<sup>th</sup></i> item, use the following procedure:
     5. If *n.child0.guide* + *n.child1.guide* is greater than or equal to *i*, set *n* to *n.child1*, and go back to **3**.
     6. Set *n* to *n.child2* and go back to **3**.
 
-    <div style="page-break-before: always"></div>
+    <div class="page-break"></div>
 6. To accomodate for fast reversing of *L*, we add a reverse bit to the guide of each
 node in *L*, which by default is set to 0. We then define two modes of reading/writing
 to the structure of *L*:
