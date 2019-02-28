@@ -1,0 +1,25 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <main class="page-content" aria-label="Content">
+      <h1>Pages</h1>
+      {% assign sorted-pages = site.pages | sort: "path" %}
+      {% for page in sorted-pages %}
+        {% assign file-name = page.path | split: '/' | last %}
+        {% unless file-name contains 'scss' %}
+          <a href="{{ page.url }}">{{ page.path }}</a><br/>
+        {% endunless %}
+      {% endfor %}
+      <br class="clearfix" />
+      {{ content }}
+    </main>
+
+  </body>
+
+</html>

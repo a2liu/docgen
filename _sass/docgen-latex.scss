@@ -1,0 +1,49 @@
+@font-face { // Declaring font faces for LaTeX font
+    font-family: "Computer Modern";
+    src: url('../fonts/computer-modern/cmunrm.ttf');
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('../fonts/computer-modern/cmunbx.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('../fonts/computer-modern/cmunti.ttf');
+  font-style: italic;
+}
+
+$base-font-family: "Computer Modern", sans-serif;
+@import "docgen-default";
+
+// Set page margins for printer
+@page {
+  margin-top: 25mm;
+  margin-bottom: 25mm;
+  margin-left: 25mm;
+  margin-right: 25mm;
+}
+
+// For when the file is just a list of things (e.g. a problem set!)
+main > {ol, ul {> li > {
+  p, div.highlighter-rouge, table {
+    margin-left: -$spacing-unit / 2;
+    margin-right: -$spacing-unit / 2;
+
+    &:first-child {
+      text-indent: $spacing-unit / 2;
+    }
+  }
+
+  ol, ul {
+    margin-left: $spacing-unit / 2;
+  }
+}}}
+
+@media print {
+  main > {
+    ol, ul {
+      margin-left: -$spacing-unit / 2;
+    }
+  }
+}

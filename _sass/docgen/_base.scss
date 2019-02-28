@@ -1,0 +1,121 @@
+/**
+ * Basic styling
+ */
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  min-height: 100vh;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, li > ul, li > ol,
+dl, figure, table,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: $spacing-unit / 2;
+  padding: 0px;
+}
+
+main > {
+  ul, ol {
+    margin-left: 0px;
+  }
+}
+
+li > {
+  ul, ol {
+    margin-left: $spacing-unit;
+  }
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $base-font-weight;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: $blockquote-color;
+  border-left: 4px solid $blockquote-border-color;
+  padding-left: $spacing-unit / 2;
+  @include relative-font-size(1.125);
+  letter-spacing: -1px;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  @include relative-font-size(0.9375);
+}
+
+code {
+  color: $code-text-color;
+}
+
+pre {
+  border: 1px solid $code-block-border-color;
+  border-radius: 3px;
+  padding: 8px 12px;
+  overflow-x: auto;
+  background-color: $code-block-background-color;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

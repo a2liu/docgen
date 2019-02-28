@@ -1,0 +1,18 @@
+@page {
+  size:  auto;   /* auto is the initial value */
+  margin: 0mm;  /* this affects the margin in the printer settings */
+}
+
+/**
+ * Page content
+ */
+.page-content {
+  // padding: $spacing-unit 0;
+  // flex: 1 0 auto;
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+}

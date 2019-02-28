@@ -1,0 +1,24 @@
+author: Your Name Here
+email: your-email@domain.com
+
+# Build settings
+theme: jekyll-theme-docgen
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  - "*.gemspec"
+  - assets/fonts/computer-modern/SIL Open Font License.txt
+  - "*.gem"
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt
+  - History.markdown
+  - CODE_OF_CONDUCT.md
