@@ -24,20 +24,20 @@ $syntax-highlighting-background-color: white !default;
 }
 
 // For when the file is just a list of things (e.g. a problem set!)
-main > ol > li > {
-  * {
-    margin-left: -$spacing-unit / 2;
-    margin-right: -$spacing-unit / 2;
-
-    &:first-child {
-      text-indent: $spacing-unit / 2;
-    }
-  }
-
-  ol, ul {
-    margin-left: $spacing-unit / 2;
-  }
-}
+// main > ol > li > {
+//   * {
+//     margin-left: -$spacing-unit / 2;
+//     margin-right: -$spacing-unit / 2;
+//
+//     &:first-child {
+//       text-indent: $spacing-unit / 2;
+//     }
+//   }
+//
+//   ol, ul {
+//     margin-left: $spacing-unit / 2;
+//   }
+// }
 
 pre {
   $offset: 15px;
