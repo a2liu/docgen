@@ -4,3 +4,4 @@ PROJ_DIR="$(dirname $SCRIPTS)"
 
 rm jekyll-theme-docgen*.gem
 gem build "$PROJ_DIR/jekyll-theme-docgen.gemspec"
+mv "$PROJ_DIR/jekyll-theme-docgen-*.gem" "$(pwd)/"
