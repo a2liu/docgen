@@ -6,8 +6,15 @@ div.page-break {
   height: 1px;
 }
 
+.citation-docgen {
+  .citation-number-docgen::after {
+    counter-increment: citation-docgen;
+    content: counter(citation-docgen);
+  }
+}
+
 @media print {
-  div.page-break {
+  .page-break {
     background-color: none;
   }
 }

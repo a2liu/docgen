@@ -4,6 +4,9 @@ email: your-email@domain.com
 # Build settings
 baseurl: /docgen
 
+docgen:
+  error: true
+
 defaults:
   -
     scope:

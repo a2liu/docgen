@@ -119,3 +119,11 @@ pre {
     padding-left: 0;
   }
 }
+
+.error-docgen {
+  border: 5px solid red;
+  color: white !important;
+  font-weight: bold;
+  min-width: 100%;
+  background: red;
+}
