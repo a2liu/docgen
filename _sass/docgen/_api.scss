@@ -7,7 +7,7 @@ div.page-break {
 }
 
 .citation-docgen {
-  .citation-number-docgen::after {
+  .citation-number-docgen:after {
     counter-increment: citation-docgen;
     content: counter(citation-docgen);
   }
