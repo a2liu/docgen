@@ -8,7 +8,7 @@ that user has more granular control of layout even without copy-pasting directly
   * Automatically redirects to baseurl if the url is `/`
 * Added jQuery to aide in future JS stuff as well as the above change
 * Added citations with normal and local links
-* Added error API using class `.error-docgen`
+* Added error messages using class `.error-docgen`
 
 ## 1.1.2 / 2019-02-28
 * Fleshed out examples, removed background color from LaTeX code blocks
