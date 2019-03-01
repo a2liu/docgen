@@ -13,5 +13,7 @@
   * Chicago formatted essays
   * Scientific papers
   * Simple slideshows
+  * List PDF's in index
+  * List arbitrary file types in index
 * Add Documentation
   * For all of it lol
