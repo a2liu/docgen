@@ -13,7 +13,13 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Computer Modern Typewriter";
+  src: url('../fonts/computer-modern/cmuntb.ttf');
+}
+
 $base-font-family: "Computer Modern", sans-serif;
+$code-font-family: "Computer Modern Typewriter", Consolas, Monaco;
 $code-block-background-color: white !default;
 $syntax-highlighting-background-color: white !default;
 @import "docgen-default";
@@ -55,6 +61,10 @@ pre {
     $offset $offset*-1
     $blur-radius $spread-radius $shadow-color
   );
+}
+
+pre, code {
+  @include relative-font-size(1);
 }
 
 @media print {

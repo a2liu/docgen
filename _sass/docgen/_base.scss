@@ -49,6 +49,22 @@ li > {
   }
 }
 
+
+// https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Syntax
+ol.heirarchical > li {
+  ol, ul {
+    margin-bottom: 0px;
+  }
+  > ol > li {
+    list-style-type: lower-alpha;
+
+    > ol > li {
+      list-style-type: lower-roman;
+    }
+  }
+}
+
+
 /**
  * Headings
  */
@@ -99,6 +115,7 @@ blockquote {
  */
 pre,
 code {
+  font-family: $code-font-family;
   @include relative-font-size(0.9375);
 }
 
