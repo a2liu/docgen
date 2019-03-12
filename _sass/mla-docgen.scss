@@ -1,0 +1,15 @@
+
+$base-font-family: "Times New Roman", Georgia;
+@import "default-docgen";
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  text-indent: 2em;
+}
+
+p.noindent {
+  text-indent: 0;
+}

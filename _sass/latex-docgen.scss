@@ -22,29 +22,12 @@ $base-font-family: "Computer Modern", sans-serif;
 $code-font-family: "Computer Modern Typewriter", Consolas, Monaco;
 $code-block-background-color: white !default;
 $syntax-highlighting-background-color: white !default;
-@import "docgen-default";
+@import "default-docgen";
 
 // Set page margins for printer
 @page {
   margin: 20mm 20mm;
 }
-
-// For when the file is just a list of things (e.g. a problem set!)
-// main > ol > li > {
-//   * {
-//     margin-left: -$spacing-unit / 2;
-//     margin-right: -$spacing-unit / 2;
-//
-// https://stackoverflow.com/questions/1632005/ordered-list-html-lower-alpha-with-right-parentheses
-//     &:first-child {
-//       text-indent: $spacing-unit / 2;
-//     }
-//   }
-//
-//   ol, ul {
-//     margin-left: $spacing-unit / 2;
-//   }
-// }
 
 pre {
   $offset: 15px;

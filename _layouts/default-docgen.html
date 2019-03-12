@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  {% assign page-style = page.layout | downcase %}
+  {% assign page-style = page.layout | downcase | split: '-' | first %}
   {% include head.html style=page-style %}
 
   <body>
