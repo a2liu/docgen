@@ -7,7 +7,7 @@
    *  More complicated list generation, i.e. specifying type of list beforehand,
    that kind of stuff
 *  Add formatting for
-   *  [ ] LaTeX's typewriter font for code
+   *  [x] LaTeX's typewriter font for code
 *  Add features
    *  MLA formatted essays, Times New Roman, Double Spaced.
    *  Chicago formatted essays

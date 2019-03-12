@@ -1,4 +1,30 @@
 ---
 layout: default
 ---
+{% if page.header %}
+<p class="noindent">
+  {% for line in page.header %}
+    {{ line }}
+    <br />
+  {% endfor %}
+</p>
+{% elsif page.author or page.date or page.instructor or page.course %}
+<p class="noindent">
+
+  {{ page.author }}
+  <br />
+  {{ page.instructor }}
+  <br />
+  {{ page.course }}
+  <br />
+  {{ page.date }}
+  <br />
+</p>
+{% endif %}
+{% assign title = page.title | default: '' | strip %}
+{% unless title == '' %}
+<p class="mla-title">
+{{ title }}
+</p>
+{% endunless %}
 {{ content }}

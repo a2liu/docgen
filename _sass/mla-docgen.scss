@@ -8,6 +8,12 @@ h1, h2 {
 
 p {
   text-indent: 2em;
+  line-height: 2em;
+  margin-bottom: 0;
+}
+
+p.mla-title {
+  text-align: center;
 }
 
 p.noindent {
