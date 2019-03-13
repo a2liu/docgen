@@ -3,14 +3,14 @@
    *  Turning the `index-docgen` layout into something that looks good
    *  Moving the browser directly to any DocGen errors on opening the window
    *  Fixing minor formatting problems that come from markdown being stupid
-*  Add support for
-   *  More complicated list generation, i.e. specifying type of list beforehand,
-   that kind of stuff
-*  Add formatting for
-   *  [x] LaTeX's typewriter font for code
+   *  Bibliography formatting
 *  Add features
-   *  MLA formatted essays, Times New Roman, Double Spaced.
-   *  Chicago formatted essays
+   *  Essays
+      *  MLA formatted essays, Times New Roman, Double Spaced.
+      *  Chicago formatted essays
+   *  ODF
+      *  Markdown to ODF and back again
+      *  Rendered webpage to ODF
    *  Scientific papers
    *  Simple slideshows
    *  List PDF's in index
