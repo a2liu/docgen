@@ -141,13 +141,6 @@ pre {
 
 
 
-div.display {
-  display: flex;
-  flex-wrap: wrap;
-  table {
-    margin-left: $spacing-unit / 2;
-  }
-}
 /**
  * Tables
  */
@@ -156,6 +149,8 @@ th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+
 
 .error-docgen {
   border: 5px solid red;
