@@ -65,6 +65,7 @@ ol.heirarchical > li {
 }
 
 
+
 /**
  * Headings
  */
@@ -90,6 +91,7 @@ a {
     text-decoration: underline;
   }
 }
+
 
 
 /**
@@ -135,6 +137,24 @@ pre {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+
+
+div.display {
+  display: flex;
+  flex-wrap: wrap;
+  table {
+    margin-left: $spacing-unit / 2;
+  }
+}
+/**
+ * Tables
+ */
+th, td {
+  padding: $spacing-unit / 4;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 .error-docgen {
