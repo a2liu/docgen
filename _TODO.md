@@ -16,5 +16,6 @@
    *  List PDF's in index
    *  List arbitrary file types in index
    *  Resume
+   *  `{% include TODO %}` or maybe `<div class="TODO"></div>` or `{{ layout.TODO }}`
 *  Add Documentation
    *  For all of it lol
