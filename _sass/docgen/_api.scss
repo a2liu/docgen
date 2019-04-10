@@ -29,11 +29,18 @@ div.display {
   }
 }
 
+div.utf-box-drawing {
+  pre, > pre, pre code {
+    font-family: "Source Code Pro";
+    line-height: initial;
+  }
+}
+
 
 // https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Syntax
 ol.heirarchical > li {
   ol, ul {
-    margin-bottom: 0px;
+    //margin-bottom: 0px;
   }
   > ol > li {
     list-style-type: lower-alpha;
