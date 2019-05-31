@@ -1,6 +1,6 @@
 # History
 
-## 1.1.3 / ???
+## 1.1.3
 * Changed API to store layout logic in layout files that end with `-docgen`, so
   that user has more granular control of layout even without copy-pasting directly from theme
 * Added install script, removed installation from build script
