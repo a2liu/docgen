@@ -11,6 +11,9 @@
       <h1>404 Not Found!</h1>
       <p id="404-content">
         The page couldn't be found :(
+        </br>
+        </br>
+        <a href="{{ '/' | relative_url }}">Click here to go back to the homepage</a>
       </p>
       {{ content }}
     </main>
@@ -25,7 +28,7 @@
         if (window.location.pathname == '/') {
           $('#404-content').text("You're being redirected to the correct homepage of this site...");
           await sleep(1000);
-          window.location.replace({{ '/' | relative_url }});
+          window.location.replace('{{ '/' | relative_url }}');
         }
       }
 
