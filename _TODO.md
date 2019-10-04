@@ -19,3 +19,4 @@
    *  `{% include TODO %}` or maybe `<div class="TODO"></div>` or `{{ layout.TODO }}`
 *  Add Documentation
    *  For all of it lol
+*  Make `default-docgen`'s `page-style` decision process less brittle
