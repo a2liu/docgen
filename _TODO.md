@@ -8,6 +8,7 @@
    *  Essays
       *  MLA formatted essays, Times New Roman, Double Spaced.
       *  Chicago formatted essays
+      *  Citation formatting at compile time
    *  ODF
       *  Markdown to ODF and back again
       *  Rendered webpage to ODF
