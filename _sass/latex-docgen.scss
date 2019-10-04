@@ -2,7 +2,7 @@ $base-font-family: "Computer Modern", sans-serif;
 $code-font-family: "Computer Modern Typewriter", Consolas, Monaco;
 $code-block-background-color: white !default;
 $syntax-highlighting-background-color: white !default;
-@import "docgen/computer-modern", "default-docgen";
+@import "fonts/computer-modern", "default-docgen";
 
 // Set page margins for printer
 @page {
