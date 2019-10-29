@@ -16,6 +16,20 @@
           <a href="{{ page.url | relative_url }}">{{ page.path }}</a><br/>
         {% endunless %}
       {% endfor %}
+
+      <br class="clearfix" />
+
+      {% assign sorted-static-files = site.static_files | sort: "path" %}
+      {% if sorted-static-files.size > 0 %}
+        <h1>Static Files</h1>
+        {% for file in sorted-static-files %}
+          {% assign file-name = file.path | split: '/' | last %}
+          {% unless file-name contains 'scss' %}
+            <a href="{{ file.url | relative_url }}">{{ file.path }}</a><br/>
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+
       <br class="clearfix" />
       {{ content }}
     </main>

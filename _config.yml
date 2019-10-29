@@ -16,9 +16,9 @@ defaults:
       layout: "default"
 
 exclude:
-  - "*.gemspec"
+  - jekyll-theme-docgen.gemspec
   - assets/fonts/computer-modern/SIL Open Font License.txt
-  - "*.gem"
+  - scripts
   - Gemfile
   - Gemfile.lock
   - README.md
