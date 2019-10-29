@@ -3,13 +3,11 @@
    *  Turning the `index-docgen` layout into something that looks good
    *  Moving the browser directly to any DocGen errors on opening the window
    *  Fixing minor formatting problems that come from markdown being stupid
-   *  Bibliography formatting
+   *  Bibliography generation and formatting
 *  Add features
    *  Essays
-      *  MLA formatted essays, Times New Roman, Double Spaced.
       *  Chicago formatted essays
-      *  Citation formatting at compile time
-   *  ODF
+   *  Open Document Format (ODF)
       *  Markdown to ODF and back again
       *  Rendered webpage to ODF
    *  Scientific papers
