@@ -4,22 +4,24 @@ LaTeX for the uninitiated. It is NOT for blogging.
 
 Uses MathJax for custom styles.
 
+### Includes API
+- `{% include page-break-docgen %}` - Inserts a page break when printing, useful
+  when printing to PDF
+- `{% include break %}` - Shortcut for `{% include page-break-docgen %}`
+
+
 ### CSS API
 Some of the available styles are easier to use without an `include`.
 
 - `div.page-break` - A page break.
 - `div.display` - A `div` that follows flexbox wrapping rules.
-- `div.utf-box-drawing` - A `div` where contained `pre` and `code` blocks support
-  utf box drawing.
 - `ol.heirarchical` - A list that supports the numbered-lettered-numeraled structure.
-- `.citation-docgen .citation-number-docgen` - Citation classes. You should consider
-  using the `citation` include instead.
 
 ### Layouts
 
 #### Documents
 - `default-docgen` - Base layout for docgen.
-- `latex-docgen` - Emulates a latex document.
+- `latex-docgen` - Emulates a LaTeX document.
 - `mla-docgen` - Emulates an MLA-style document, i.e. 12pt Times New Roman with header.
 
 #### Utility Pages
@@ -32,6 +34,7 @@ Some of the available styles are easier to use without an `include`.
 ### Page & Site Properties
 - `lang` - Set the language in `_config.yml` or in the front matter
 - `mla` & `mla-docgen` - In the front matter, you can set:
+
   - `author`
   - `instructor`
   - `course`
