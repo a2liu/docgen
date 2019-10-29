@@ -44,12 +44,12 @@ ol.heirarchical > li {
   }
 }
 
-.citation-docgen {
-  .citation-number-docgen:after {
-    counter-increment: citation-docgen;
-    content: counter(citation-docgen);
-  }
-}
+// .citation-docgen {
+//   .citation-number-docgen:after {
+//     counter-increment: citation-docgen;
+//     content: counter(citation-docgen);
+//   }
+// }
 
 @media print {
   .page-break {
