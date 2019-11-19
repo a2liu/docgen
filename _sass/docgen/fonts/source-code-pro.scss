@@ -1,4 +1,5 @@
 // Taken unceremoniously from https://github.com/adobe-fonts/source-code-pro
+$docgen-asset-url: "https://raw.githubusercontent.com/A1Liu/docgen/master/assets/docgen";
 /*
 Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
 with Reserved Font Name 'Source'. All Rights Reserved.
@@ -103,9 +104,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 200;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-ExtraLight.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-ExtraLight.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-ExtraLight.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-ExtraLight.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-ExtraLight.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-ExtraLight.ttf') format('truetype');
 }
 
 @font-face{
@@ -113,9 +114,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 200;
     font-style: italic;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-ExtraLightIt.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-ExtraLightIt.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-ExtraLightIt.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-ExtraLightIt.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-ExtraLightIt.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-ExtraLightIt.ttf') format('truetype');
 }
 
 @font-face{
@@ -123,9 +124,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-Light.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-Light.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-Light.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-Light.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-Light.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-Light.ttf') format('truetype');
 }
 
 @font-face{
@@ -133,9 +134,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 300;
     font-style: italic;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-LightIt.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-LightIt.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-LightIt.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-LightIt.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-LightIt.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-LightIt.ttf') format('truetype');
 }
 
 @font-face{
@@ -143,9 +144,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-Regular.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-Regular.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-Regular.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-Regular.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-Regular.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-Regular.ttf') format('truetype');
 }
 
 @font-face{
@@ -153,9 +154,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 400;
     font-style: italic;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-It.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-It.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-It.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-It.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-It.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-It.ttf') format('truetype');
 }
 
 @font-face{
@@ -163,9 +164,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-Medium.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-Medium.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-Medium.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-Medium.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-Medium.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-Medium.ttf') format('truetype');
 }
 
 @font-face{
@@ -173,9 +174,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 500;
     font-style: italic;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-MediumIt.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-MediumIt.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-MediumIt.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-MediumIt.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-MediumIt.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-MediumIt.ttf') format('truetype');
 }
 
 @font-face{
@@ -183,9 +184,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-Semibold.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-Semibold.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-Semibold.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-Semibold.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-Semibold.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-Semibold.ttf') format('truetype');
 }
 
 @font-face{
@@ -193,9 +194,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 600;
     font-style: italic;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-SemiboldIt.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-SemiboldIt.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-SemiboldIt.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-SemiboldIt.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-SemiboldIt.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-SemiboldIt.ttf') format('truetype');
 }
 
 @font-face{
@@ -203,9 +204,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 700;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-Bold.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-Bold.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-Bold.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-Bold.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-Bold.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-Bold.ttf') format('truetype');
 }
 
 @font-face{
@@ -213,9 +214,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 700;
     font-style: italic;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-BoldIt.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-BoldIt.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-BoldIt.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-BoldIt.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-BoldIt.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-BoldIt.ttf') format('truetype');
 }
 
 @font-face{
@@ -223,9 +224,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-Black.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-Black.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-Black.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-Black.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-Black.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-Black.ttf') format('truetype');
 }
 
 @font-face{
@@ -233,7 +234,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-weight: 900;
     font-style: italic;
     font-stretch: normal;
-    src: url('../fonts/source-code-pro/EOT/SourceCodePro-BlackIt.eot') format('embedded-opentype'),
-         url('../fonts/source-code-pro/OTF/SourceCodePro-BlackIt.otf') format('opentype'),
-         url('../fonts/source-code-pro/TTF/SourceCodePro-BlackIt.ttf') format('truetype');
+    src: url('#{$docgen-asset-url}/fonts/source-code-pro/EOT/SourceCodePro-BlackIt.eot') format('embedded-opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/OTF/SourceCodePro-BlackIt.otf') format('opentype'),
+         url('#{$docgen-asset-url}/fonts/source-code-pro/TTF/SourceCodePro-BlackIt.ttf') format('truetype');
 }

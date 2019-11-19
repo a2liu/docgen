@@ -1,20 +1,22 @@
+$docgen-asset-url: "https://raw.githubusercontent.com/A1Liu/docgen/master/assets/docgen";
+
 @font-face { // Declaring font faces for LaTeX font
     font-family: "Computer Modern";
-    src: url('../fonts/computer-modern/cmunrm.ttf');
+    src: url('#{$docgen-asset-url}/fonts/computer-modern/cmunrm.ttf');
 }
 @font-face {
   font-family: "Computer Modern";
-  src: url('../fonts/computer-modern/cmunbx.ttf');
+  src: url('#{$docgen-asset-url}/fonts/computer-modern/cmunbx.ttf');
   font-weight: bold;
 }
 @font-face {
   font-family: "Computer Modern";
-  src: url('../fonts/computer-modern/cmunti.ttf');
+  src: url('#{$docgen-asset-url}/fonts/computer-modern/cmunti.ttf');
   font-style: italic;
 }
 
 @font-face {
   font-family: "Computer Modern Typewriter";
-  src: url('../fonts/computer-modern/cmuntb.ttf');
+  src: url('#{$docgen-asset-url}/fonts/computer-modern/cmuntb.ttf');
 }
 
