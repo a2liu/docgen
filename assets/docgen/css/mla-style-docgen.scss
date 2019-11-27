@@ -1,4 +1,4 @@
 ---
 ---
-$site-baseurl: {{ site.baseurl }};
+$site-baseurl: "{{ site.baseurl }}";
 @import "docgen/mla-docgen";
