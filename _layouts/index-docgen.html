@@ -25,7 +25,7 @@
         {% for file in sorted-static-files %}
           {% assign file-name = file.path | split: '/' | last %}
           {% unless file-name contains 'scss' %}
-            <a href="{{ file.url | relative_url }}">{{ file.path }}</a><br/>
+            <a href="{{ file.path | relative_url }}">{{ file.path }}</a><br/>
           {% endunless %}
         {% endfor %}
       {% endif %}

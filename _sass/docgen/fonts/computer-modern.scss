@@ -1,4 +1,4 @@
-$docgen-asset-url: "https://raw.githubusercontent.com/A1Liu/docgen/master/assets/docgen";
+$docgen-asset-url: "#{$site-baseurl}/assets/docgen";
 
 @font-face { // Declaring font faces for LaTeX font
     font-family: "Computer Modern";
