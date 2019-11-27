@@ -110,11 +110,6 @@ code {
   color: $code-text-color;
 }
 
-pre.utf-box-drawing,
-code.utf-box-drawing {
-  font-family: "Source Code Pro";
-}
-
 pre {
   border: 1px solid $code-block-border-color;
   line-height: 1.3;

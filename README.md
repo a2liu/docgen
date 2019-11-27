@@ -4,6 +4,9 @@ LaTeX for the uninitiated. It is NOT for blogging.
 
 Uses MathJax for custom styles.
 
+### Examples
+See the `examples` folder for examples of how to use this theme.
+
 ### Includes API
 - `{% include page-break-docgen %}` - Inserts a page break when printing, useful
   when printing to PDF
