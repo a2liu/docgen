@@ -23,8 +23,8 @@
       {% if sorted-static-files.size > 0 %}
         <h1>Static Files</h1>
         {% for file in sorted-static-files %}
-          {% assign file-name = file.path | split: '/' | last %}
-          {% unless file-name contains 'scss' %}
+          {% assign file-name = file.path | split: '/' %}
+          {% unless file-name[1] == 'assets' and file-name[2] == 'docgen' %}
             <a href="{{ file.path | relative_url }}">{{ file.path }}</a><br/>
           {% endunless %}
         {% endfor %}
