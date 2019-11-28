@@ -15,6 +15,10 @@ defaults:
     values:
       layout: "default"
 
+error_mode: strict
+strict_variables: true
+strict_filters: true
+
 exclude:
   - jekyll-theme-docgen.gemspec
   - assets/fonts/computer-modern/SIL Open Font License.txt
