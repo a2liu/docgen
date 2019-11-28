@@ -21,7 +21,6 @@ strict_filters: true
 
 exclude:
   - jekyll-theme-docgen.gemspec
-  - assets/fonts/computer-modern/SIL Open Font License.txt
   - scripts
   - Gemfile
   - Gemfile.lock
