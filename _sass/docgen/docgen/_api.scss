@@ -1,9 +1,28 @@
-div.page-break {
+// @media print {
+//   hr, div.horizontal-line {
+//     // -webkit-print-color-adjust: exact;
+//   }
+// }
+
+%horizontal-line {
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
+  border-top: 1px solid black;
+}
+
+hr, div.horizontal-line, div.page-break {
+  @extend %horizontal-line;
+}
+
+div.page-break {
   break-after: page;
-  background-color: black;
-  height: 1px;
+}
+
+@media print {
+  div.page-break {
+    height: 0px;
+    background-color: none;
+  }
 }
 
 div.display {
@@ -55,12 +74,3 @@ pre.utf-box-drawing,
 code.utf-box-drawing {
   font-family: "Source Code Pro";
 }
-
-
-@media print {
-  .page-break {
-    height: 0px;
-    background-color: none;
-  }
-}
-
