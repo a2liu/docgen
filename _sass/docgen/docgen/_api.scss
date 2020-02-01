@@ -21,7 +21,7 @@ div.page-break {
 @media print {
   div.page-break {
     height: 0px;
-    background-color: none;
+    border-top: none;
   }
 }
 
