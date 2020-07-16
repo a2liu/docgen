@@ -1,4 +1,16 @@
 ---
 layout: default-docgen
 ---
-{{ content }}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+  {% include head-docgen.html style='latex-docgen' %}
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      {{ content }}
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    </main>
+  </body>
+
+</html>
