@@ -47,4 +47,3 @@ Some of the available styles are easier to use without an `include`.
 
   All of which are copied verbatim. You can also set `title` in the front matter,
   which is copied verbatim into own paragraph where the MLA standard says it should go.
-
